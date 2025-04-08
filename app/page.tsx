@@ -18,7 +18,7 @@ export default function Home() {
                 covered.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-black text-yellow-400 hover:bg-gray-100">
+                <Button asChild size="lg" className="bg-black text-yellow-400 hover:bg-white/10">
                   <Link href="/services">
                     Browse Services <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
