@@ -254,7 +254,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-teal-600 text-white">
+      <section className="relative bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-neutral-800 via-yellow-400 to-neutral-900 py-20 px-4 sm:px-6 lg:px-8 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to get started?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
