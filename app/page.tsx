@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative rounded-lg overflow-hidden">
                 <img
                   src="https://i.postimg.cc/fyVTZtwC/pngtree-comprehensive-collection-of-construction-tools-for-home-repair-and-building-services-image-1.png"
                   alt="Home services illustration"
