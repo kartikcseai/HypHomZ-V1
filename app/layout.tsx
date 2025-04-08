@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "HomeServe - On-Demand Home Services",
+  title: "HypHomZ : Your Concern's one stop solution",
   description:
     "Book professional home services online. Connect with verified service providers for all your home needs.",
     generator: 'v0.dev'
