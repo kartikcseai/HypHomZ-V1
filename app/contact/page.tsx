@@ -77,11 +77,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold mb-1">Our Address</h3>
                     <p className="text-gray-600">
-                      123 Service Street
+                      Plot no.2, GL Bajaj Institute of Technology and Management 
                       <br />
-                      New York, NY 10001
+                      Greater Noida, 201308
                       <br />
-                      United States
+                      Uttar Pradesh, India
                     </p>
                   </div>
                 </div>
@@ -93,8 +93,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+1234567890" className="hover:text-teal-600">
-                        (123) 456-7890
+                      <a href="tel:+91 6395238889" className="hover:text-teal-600">
+                        (+91) 63952-38889
                       </a>
                     </p>
                   </div>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold mb-1">Email</h3>
                     <p className="text-gray-600">
                       <a href="mailto:info@homeserve.com" className="hover:text-teal-600">
-                        info@homeserve.com
+                        hyphomz.info@gmail.com
                       </a>
                     </p>
                   </div>
