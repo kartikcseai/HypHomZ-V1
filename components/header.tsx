@@ -92,7 +92,7 @@ export default function Header() {
                       {link.name}
                     </Link>
                   ))}
-                  <div className="pt-4 flex flex-col space-y-2">
+{/*                   <div className="pt-4 flex flex-col space-y-2">
                     <Button asChild variant="outline">
                       <Link href="/login" onClick={() => setIsSheetOpen(false)}>
                         Log In
@@ -103,7 +103,7 @@ export default function Header() {
                         Sign Up
                       </Link>
                     </Button>
-                  </div>
+                  </div> */}
                 </nav>
               </SheetContent>
             </Sheet>
