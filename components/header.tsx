@@ -41,7 +41,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-black">HypHomZ</span>
+              <span className="text-2xl font-bold text-yellow-400">HypHomZ</span>
             </Link>
           </div>
 
@@ -53,7 +53,7 @@ export default function Header() {
                     key={link.name}
                     href={link.href}
                     className={`text-sm font-medium transition-colors hover:text-teal-600 ${
-                      pathname === link.href ? "text-teal-600" : "text-gray-700"
+                      pathname === link.href ? "text-black" : "text-yellow-400"
                     }`}
                   >
                     {link.name}
