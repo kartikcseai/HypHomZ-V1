@@ -84,8 +84,8 @@ export default function Header() {
                     <Link
                       key={link.name}
                       href={link.href}
-                      className={`text-base font-medium transition-colors hover:text-teal-600 ${
-                        pathname === link.href ? "text-teal-600" : "text-gray-700"
+                      className={`text-base font-medium transition-colors hover:text-yellow-700 ${
+                        pathname === link.href ? "text-yellow-700": "text-black"
                       }`}
                       onClick={() => setIsSheetOpen(false)}
                     >
