@@ -29,7 +29,6 @@ export default function Header() {
     { name: "Providers", href: "/providers" },
     { name: "How It Works", href: "/how-it-works" },
     { name: "Contact", href: "/contact" },
-    { name: "Connect with us" },
   ]
 
   return (
