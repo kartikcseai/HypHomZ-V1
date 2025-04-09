@@ -61,14 +61,14 @@ export default function Header() {
                 ))}
               </nav>
 
-              <div className="hidden md:flex items-center space-x-4">
+{/*               <div className="hidden md:flex items-center space-x-4">
                 <Button asChild variant="outline">
                   <Link href="/login">Log In</Link>
                 </Button>
                 <Button asChild className="bg-teal-600 hover:bg-teal-700">
                   <Link href="/signup">Sign Up</Link>
                 </Button>
-              </div>
+              </div> */}
             </>
           ) : (
             <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
