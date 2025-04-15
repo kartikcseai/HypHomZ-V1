@@ -14,7 +14,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ title, description, icon, price, rating }: ServiceCardProps) {
   const getIcon = (iconName: string) => {
-    const props = { className: "h-6 w-6 text-teal-600" }
+    const props = { className: "h-6 w-6 text-black" }
 
     switch (iconName) {
       case "Droplet":
@@ -59,7 +59,7 @@ export default function ServiceCard({ title, description, icon, price, rating }:
         </div>
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full bg-yellow-300 hover:bg-yellow-500 text-black">
+        <Button asChild className="w-full bg-yellow-400 hover:bg-yellow-500 text-black">
           <Link href={`/services/${title.toLowerCase().replace(/\s+/g, "-")}`}>Book Now</Link>
         </Button>
       </CardFooter>
