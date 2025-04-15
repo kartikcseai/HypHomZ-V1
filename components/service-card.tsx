@@ -46,12 +46,12 @@ export default function ServiceCard({ title, description, icon, price, rating }:
     <Card className="h-full hover:shadow-lg transition-shadow duration-300">
       <CardContent className="pt-6">
         <div className="flex items-center mb-4">
-          <div className="bg-teal-100 p-2 rounded-full mr-3">{getIcon(icon)}</div>
+          <div className="bg-yellow-100 p-2 rounded-full mr-3">{getIcon(icon)}</div>
           <h3 className="text-xl font-semibold">{title}</h3>
         </div>
         <p className="text-gray-600 mb-4">{description}</p>
         <div className="flex justify-between items-center">
-          <span className="font-semibold text-teal-600">{price}</span>
+          <span className="font-semibold text-black">{price}</span>
           <div className="flex items-center">
             <Star className="h-4 w-4 text-yellow-400 mr-1 fill-current" />
             <span className="text-sm font-medium">{rating}</span>
