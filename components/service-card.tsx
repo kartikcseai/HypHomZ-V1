@@ -59,7 +59,7 @@ export default function ServiceCard({ title, description, icon, price, rating }:
         </div>
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full bg-teal-600 hover:bg-teal-700">
+        <Button asChild className="w-full bg-yellow-300 hover:bg-yellow-500 text-black">
           <Link href={`/services/${title.toLowerCase().replace(/\s+/g, "-")}`}>Book Now</Link>
         </Button>
       </CardFooter>
