@@ -109,7 +109,7 @@ export default function HowItWorksPage() {
             <Card key={index} className="border-2 border-gray-100 hover:border-teal-100 transition-colors duration-300">
               <CardContent className="p-6">
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-yellow-400 p-4 rounded-full mb-6">{step.icon}</div>
+                  <div className="bg-teal-50 p-4 rounded-full mb-6">{step.icon}</div>
                   <h3 className="text-xl font-semibold mb-3">
                     <span className="inline-block bg-teal-600 text-white rounded-full w-6 h-6 text-sm mr-2">
                       {index + 1}
