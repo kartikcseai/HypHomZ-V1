@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function HowItWorksPage() {
   const steps = [
     {
-      icon: <Search className="h-12 w-12 text-teal-600" />,
+      icon: <Search className="h-12 w-12 text-yellow-600" />,
       title: "Search for Services",
       description: "Browse through our wide range of professional home services and find what you need.",
       details: [
@@ -16,7 +16,7 @@ export default function HowItWorksPage() {
       ],
     },
     {
-      icon: <Shield className="h-12 w-12 text-teal-600" />,
+      icon: <Shield className="h-12 w-12 text-yellow-600" />,
       title: "Choose a Provider",
       description: "Select from our verified and highly-rated service providers.",
       details: [
@@ -26,7 +26,7 @@ export default function HowItWorksPage() {
       ],
     },
     {
-      icon: <Calendar className="h-12 w-12 text-teal-600" />,
+      icon: <Calendar className="h-12 w-12 text-yellow-600" />,
       title: "Book an Appointment",
       description: "Schedule a service at your preferred date and time.",
       details: [
@@ -36,7 +36,7 @@ export default function HowItWorksPage() {
       ],
     },
     {
-      icon: <MessageSquare className="h-12 w-12 text-teal-600" />,
+      icon: <MessageSquare className="h-12 w-12 text-yellow-600" />,
       title: "Communicate",
       description: "Chat directly with your service provider before the appointment.",
       details: [
@@ -46,7 +46,7 @@ export default function HowItWorksPage() {
       ],
     },
     {
-      icon: <Star className="h-12 w-12 text-teal-600" />,
+      icon: <Star className="h-12 w-12 text-yellow-600" />,
       title: "Service Completion",
       description: "Enjoy professional service delivered to your satisfaction.",
       details: [
@@ -56,7 +56,7 @@ export default function HowItWorksPage() {
       ],
     },
     {
-      icon: <CreditCard className="h-12 w-12 text-teal-600" />,
+      icon: <CreditCard className="h-12 w-12 text-yellow-600" />,
       title: "Payment & Review",
       description: "Pay securely and share your experience with others.",
       details: ["Secure online payment processing", "Rate your service experience", "Leave feedback for the provider"],
@@ -159,16 +159,16 @@ export default function HowItWorksPage() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-teal-600 text-white rounded-xl p-8 text-center">
+      <div className="bg-yellow-400 text-black rounded-xl p-8 text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Join thousands of satisfied customers who have transformed their homes with our services
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-white text-teal-600 hover:bg-gray-100">
+          <Button asChild size="lg" className="bg-white text-yellow-600 hover:bg-gray-100">
             <Link href="/services">Browse Services</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+          <Button asChild size="lg" variant="outline" className="border-black text-black hover:bg-yellow-300">
             <Link href="/signup">Create an Account</Link>
           </Button>
         </div>
@@ -176,4 +176,3 @@ export default function HowItWorksPage() {
     </div>
   )
 }
-
