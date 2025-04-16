@@ -159,7 +159,7 @@ export default function HowItWorksPage() {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-yellow-400 text-black rounded-xl p-8 text-center">
+      <div className="bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-neutral-900 via-yellow-400 to-neutral-900 text-white rounded-xl p-8 text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Join thousands of satisfied customers who have transformed their homes with our services
