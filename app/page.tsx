@@ -251,16 +251,16 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center text-center p-6">
-              <div className="bg-teal-100 p-4 rounded-full mb-6">
-                <Calendar className="h-8 w-8 text-teal-600" />
+              <div className="bg-yellow-400 p-4 rounded-full mb-6">
+                <Calendar className="h-8 w-8 text-black" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Book</h3>
               <p className="text-gray-600">Select your preferred date and time for the service</p>
             </div>
 
             <div className="flex flex-col items-center text-center p-6">
-              <div className="bg-teal-100 p-4 rounded-full mb-6">
-                <Star className="h-8 w-8 text-teal-600" />
+              <div className="bg-yellow-400 p-4 rounded-full mb-6">
+                <Star className="h-8 w-8 text-black" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Relax</h3>
               <p className="text-gray-600">Our professionals will arrive and complete the job to your satisfaction</p>
