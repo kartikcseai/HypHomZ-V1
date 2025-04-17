@@ -184,15 +184,6 @@ export default function Home() {
               rating={4.5}
             />
           </div>
-
-          <div className="text-center mt-12">
-            <Button asChild variant="outline" size="lg">
-              <Link href="/services">
-                View All Services <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
-        </div>
       </section>
 
       
