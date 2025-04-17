@@ -137,6 +137,66 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Maid Services */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Genie Services</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Book maid
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ServiceCard
+              title="Brooming, Cleaning"
+              description="Professional cleaning services for your home"
+              icon="Sparkles"
+              price="From ₹3,000/month"
+              rating={4.8}
+            />
+            <ServiceCard
+              title="Dusting"
+              description="Fix leaks, clogs, and other plumbing issues"
+              icon="Droplet"
+              price="From ₹800/month"
+              rating={4.7}
+            />
+            <ServiceCard
+              title="Dish-washing"
+              description="Installation, repairs, and maintenance"
+              icon="Zap"
+              price="From ₹500/month"
+              rating={4.9}
+            />
+            <ServiceCard
+              title="Bathroom Cleaning"
+              description="Interior and exterior painting services"
+              icon="Paintbrush"
+              price="From ₹500/month"
+              rating={4.6}
+            />
+            <ServiceCard
+              title="Food"
+              description="Mowing, trimming, and garden maintenance"
+              icon="Scissors"
+              price="From ₹3,000/month"
+              rating={4.5}
+            />
+          </div>
+
+          <div className="text-center mt-12">
+            <Button asChild variant="outline" size="lg">
+              <Link href="/services">
+                View All Services <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      
+
       {/* Top Providers */}
 {/*       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
