@@ -280,7 +280,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <Shield className="h-6 w-6 text-teal-600 mr-3" />
+                <Shield className="h-6 w-6 text-yellow-600 mr-3" />
                 <h3 className="text-xl font-semibold">Verified Professionals</h3>
               </div>
               <p className="text-gray-600">All service providers undergo thorough background checks and verification</p>
@@ -288,7 +288,7 @@ export default function Home() {
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <Star className="h-6 w-6 text-teal-600 mr-3" />
+                <Star className="h-6 w-6 text-yellow-600 mr-3" />
                 <h3 className="text-xl font-semibold">Rated & Reviewed</h3>
               </div>
               <p className="text-gray-600">Read genuine reviews from customers who have used our services</p>
@@ -296,7 +296,7 @@ export default function Home() {
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <MessageSquare className="h-6 w-6 text-teal-600 mr-3" />
+                <MessageSquare className="h-6 w-6 text-yellow-600 mr-3" />
                 <h3 className="text-xl font-semibold">Secure Communication</h3>
               </div>
               <p className="text-gray-600">Chat directly with service providers through our secure messaging system</p>
