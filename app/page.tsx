@@ -242,8 +242,8 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center p-6">
-              <div className="bg-teal-100 p-4 rounded-full mb-6">
-                <Search className="h-8 w-8 text-teal-600" />
+              <div className="bg-yellow-200 p-4 rounded-full mb-6">
+                <Search className="h-8 w-8 text-yellow-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Search</h3>
               <p className="text-gray-600">Browse through our wide range of professional home services</p>
